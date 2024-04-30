@@ -8,6 +8,10 @@ html {
 }
 
 .encabezado--logo {
+    color: #000000;
+}
+
+.encabezado-nos {
     color: #F7F5EA;
 }
 
@@ -23,24 +27,8 @@ html {
     top: 10px;
 }
 
-.menu-list__index:hover {
-    color: #0fe01a;
-}
-
-.menu-list__nos:hover {
-    color:#0fe01a
-}
-
-.menu-list__contacto:hover {
-    color:#0fe01a
-}
-
-.menu-list__servicios:hover {
-    color: #0fe01a;
-}
-
-.menu-list__faq:hover {
-    color:#0fe01a ;
+.nav-link:hover {
+    border-bottom:#3de00b 2px solid ;
 }
 
 main {
