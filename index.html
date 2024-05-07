@@ -12,8 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-    <header class="encabezado">
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+      <header class="encabezado">
         <nav class="navbar navbar-expand-lg m--nav bg-light">
             <div class="container-fluid">
               <a class="navbar-brand encabezado--logo" href="./index.html">NUNTIUS</a>
@@ -69,7 +71,9 @@
             <h3> En el complejo panorama político actual, la comunicación se erige como una herramienta fundamental para conectar con la ciudadanía y transmitir mensajes claros y persuasivos. En nuestra plataforma, nos comprometemos a ofrecer estrategias innovadoras y efectivas que ayuden a nuestros clientes a alcanzar sus objetivos políticos, así como también informar sobre actualidad y permitir espacios de reflexión. </h3> 
         </article>
         <br>
-        <section class="todo-items">
+        <section class="todo-items" class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12">
             <article class="todo-items__nosotros">
                 <div class="todo-items__nosotros"></div>
                 <img src="assets/quienesomos.jpg" class="todo-items__nosotros__banner" alt="Imagen quienes somos">
@@ -79,8 +83,12 @@
                 <div class="todo-items__asesoria"></div>
                 <img src="assets/servicios.webp" class="todo-items__asesoria__banner" alt="Imagen nuestros servicios">
                 <a href="#asesoria">ASESORÍA</a>
+                </div>
+              </div>
             </article>
-            <article class="todo-items__actualidad"> 
+            <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <article class="todo-items__actualidad"> 
                 <div class="todo-items__actualidad"></div>
                 <img src="assets/actualidad.jpg" class="todo-items__actualidad__banner" alt="Imagen actualidad">
                 <a href="#actualidad"> NOTICIAS YA</a>
@@ -89,7 +97,10 @@
                 <div class="todo-items__experiencias"></div>
                 <img src="assets/experiencias.jpg" class="todo-items__experiencias__banner" alt="Imagen experiencias">
                 <a href="#experiencias">EXPERIENCIAS</a>
+              </div>
+            </div>
             </article>
+         </div>
         </section>
         <br>
         <aside>
@@ -122,6 +133,8 @@
         </section>
     </footer>
 </div>
+</div>
+</section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
