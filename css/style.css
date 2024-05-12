@@ -1,5 +1,3 @@
-
-
 html {
     margin: 0%;
     padding: 0%;
@@ -11,40 +9,50 @@ body {
     overflow-x: hidden;
 }
 
-.encabezado--logo {
-    color: #000000;
+.encabezado {
+    background-color: #0F3D06;
+}
+
+.encabezado img {
+    width: 15%;
 }
 
 .encabezado-nos {
     color: #F7F5EA;
 }
 
-.encabezado {
-    background-color: #0f3d06;
-    background-size: cover;
-    background-position: center;
+.menu-list__index:hover {
+    color: #0fe01a;
 }
 
-.encabezado img{
-    width: 150px;
-    position: sticky;
-    top: 10px;
+.menu-list__nos:hover {
+    color:#0fe01a
+}
+
+.menu-list__contacto:hover {
+    color:#0fe01a
+}
+
+.menu-list__servicios:hover {
+    color: #0fe01a;
+}
+
+.menu-list__faq:hover {
+    color:#0fe01a ;
 }
 
 .nav-link:hover {
     border-bottom:#3de00b 2px solid ;
 }
 
+
 main {
     background-color:#F7F5EA;
     grid-area: main;
 }
-
 main img {
     width: 100%;
 }
-
-
 p {
     font-family: Oswald; 
     font-size: 20px; 
@@ -52,7 +60,6 @@ p {
     text-align: center; 
     margin: 40px;
 }
-
 h1 {
     font-family: Oswald; 
     font-size: 40px; 
@@ -60,8 +67,6 @@ h1 {
     font-weight:bolder; 
     text-align: center;
 }
-
-
 h2 {
     font-family: Oswald; 
     font-size: 25px; 
@@ -69,20 +74,17 @@ h2 {
     font-weight: bold; 
     text-align: center;
 }
-
 h3 {
     font-family: Oswald; 
     font-size: 15px; 
     text-align: center;
 }
-
 .todo-items {
     background-color: #F7F5EA;
     display: flex;
     flex-flow: wrap;
     justify-content: center;
 }
-
 .todo-items__nosotros {
     background-color: #87B778;
     width: 600px;
@@ -91,12 +93,10 @@ h3 {
     margin-right: 10px;
     font-size: 20px;
 }
-
 .todo-items__nosotros__banner {
     width: 400px;
     border-radius: 150px;
 }
-
 .todo-items__asesoria {
     background-color: #87B778;
     width: 600px;
@@ -105,12 +105,10 @@ h3 {
     margin-right: 10px;
     font-size: 20px;
 }
-
 .todo-items__asesoria__banner {
     width: 400px;
     border-radius: 150px;
 }
-
 .todo-items__actualidad {
     background-color: #87B778;
     width: 600px;
@@ -119,12 +117,10 @@ h3 {
     margin-right: 10px;
     font-size: 20px;
 }
-
 .todo-items__actualidad__banner{
     width: 400px;
     border-radius: 150px;
 }
-
 .todo-items__experiencias {
     background-color: #87B778;
     width: 600px;
@@ -138,20 +134,16 @@ h3 {
     width: 400px;
     border-radius: 150px;
 }
-
 aside {
     grid-area: aside;
 }
-
 footer {
     background-color:#0F3D06;
     grid-area: footer;
 }
-
 footer img {
     width: 100px;
 }
-
 .derechos {
     font-family: Oswald;
     font-size: 15px;
@@ -159,7 +151,6 @@ footer img {
     color: #F7F5EA;
     
 }
-
 .tyc {
     list-style: none; 
     text-align: right;
@@ -181,6 +172,7 @@ footer img {
 
 @media (max-width: 768px) {
     .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 0.4fr 0.1fr 0.2;
     grid-template-areas: 
@@ -190,3 +182,5 @@ footer img {
     "footer footer footer footer"
     }
 }
+
+

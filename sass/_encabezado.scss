@@ -1,0 +1,17 @@
+//encabezado
+
+.encabezado {
+    background-color: $verdeoscuroback;
+}
+
+.encabezado--logo {
+    width: 15%;
+}
+
+.encabezado-nos {
+    color: $blancoback;
+}
+
+.nav-link:hover {
+    border-bottom:$verdeclarohover 2px solid ;
+}

@@ -1,0 +1,116 @@
+//main, aside, y footer
+
+main {
+    background-color: $blancoback;
+    grid-area: main;
+}
+main img {
+    width: 100%;
+}
+p {
+    font-family: Oswald; 
+    font-size: 20px; 
+    font-style: italic; 
+    text-align: center; 
+    margin: 40px;
+}
+h1 {
+    font-family: Oswald; 
+    font-size: 40px; 
+    font-style: italic; 
+    font-weight:bolder; 
+    text-align: center;
+}
+h2 {
+    font-family: Oswald; 
+    font-size: 25px; 
+    font-style: italic; 
+    font-weight: bold; 
+    text-align: center;
+}
+h3 {
+    font-family: Oswald; 
+    font-size: 15px; 
+    text-align: center;
+}
+.todo-items {
+    background-color:$blancoback;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.todo-items {
+    &__nosotros {
+        background-color:$verderaroitems;
+        width: 600px;
+        border-radius: 200px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        font-size: 20px;
+        &__banner {
+            width: 400px;
+            border-radius: 150px;
+        }
+    }
+    &__asesoria {
+            background-color:$verderaroitems;
+            width: 600px;
+            border-radius: 200px;
+            margin-bottom: 20px;
+            margin-right: 10px;
+            font-size: 20px;
+            &__banner {
+                width: 400px;
+                border-radius: 150px;
+            }
+    }
+    &__actualidad {
+        background-color:$verderaroitems;
+        width: 600px;
+        border-radius: 200px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        font-size: 20px;
+        &__banner {
+            width: 400px;
+            border-radius: 150px;
+        }
+    }
+    &__experiencias {
+            background-color:$verderaroitems;
+            width: 600px;
+            border-radius: 200px;
+            margin-bottom: 20px;
+            margin-right: 10px;
+            font-size: 20px;
+            &__banner {
+                width: 400px;
+                border-radius: 150px;
+            }
+        }
+    }
+
+aside {
+    grid-area: aside;
+}
+footer {
+    background-color:$verdeoscuroback;
+    grid-area: footer;
+}
+footer img {
+    width: 100px;
+}
+.derechos {
+    font-family: Oswald;
+    font-size: 15px;
+    text-align: left;
+    color:$blancoback;
+    
+}
+.tyc {
+    list-style: none; 
+    text-align: right;
+    color: $blancoback;
+    font-size: 15px;
+}
