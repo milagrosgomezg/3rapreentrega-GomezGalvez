@@ -10,7 +10,8 @@ body {
 }
 
 .encabezado {
-    background-color: #0F3D06;
+    background-color: rgb(3,25,0);
+    background: linear-gradient(180deg, rgba(3,25,0,1) 0%, rgba(12,77,1,1) 35%, rgba(42,190,0,1) 100%);
 }
 
 .encabezado img {
@@ -138,8 +139,9 @@ aside {
     grid-area: aside;
 }
 footer {
-    background-color:#0F3D06;
     grid-area: footer;
+    background-color: rgb(3,25,0);
+    background: linear-gradient(180deg, rgba(3,25,0,1) 0%, rgba(12,77,1,1) 35%, rgba(42,190,0,1) 100%);
 }
 footer img {
     width: 100px;

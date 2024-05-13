@@ -9,28 +9,28 @@ main img {
 }
 p {
     font-family: Oswald; 
-    font-size: 20px; 
+    font-size: map-get($textos:normal); 
     font-style: italic; 
     text-align: center; 
     margin: 40px;
 }
 h1 {
     font-family: Oswald; 
-    font-size: 40px; 
+    font-size: map-get($textos: dos); 
     font-style: italic; 
     font-weight:bolder; 
     text-align: center;
 }
 h2 {
     font-family: Oswald; 
-    font-size: 25px; 
+    font-size: map-get($textos: tres); 
     font-style: italic; 
     font-weight: bold; 
     text-align: center;
 }
 h3 {
     font-family: Oswald; 
-    font-size: 15px; 
+    font-size: map-get($textos: cuatro); 
     text-align: center;
 }
 .todo-items {
@@ -47,7 +47,7 @@ h3 {
         border-radius: 200px;
         margin-bottom: 20px;
         margin-right: 10px;
-        font-size: 20px;
+        font-size: map-get($textos:normal);
         &__banner {
             width: 400px;
             border-radius: 150px;
@@ -59,7 +59,7 @@ h3 {
             border-radius: 200px;
             margin-bottom: 20px;
             margin-right: 10px;
-            font-size: 20px;
+            font-size: map-get($textos:normal);
             &__banner {
                 width: 400px;
                 border-radius: 150px;
@@ -71,7 +71,7 @@ h3 {
         border-radius: 200px;
         margin-bottom: 20px;
         margin-right: 10px;
-        font-size: 20px;
+        font-size: map-get($textos:normal);
         &__banner {
             width: 400px;
             border-radius: 150px;
@@ -83,7 +83,7 @@ h3 {
             border-radius: 200px;
             margin-bottom: 20px;
             margin-right: 10px;
-            font-size: 20px;
+            font-size: map-get($textos:normal);
             &__banner {
                 width: 400px;
                 border-radius: 150px;
@@ -103,7 +103,7 @@ footer img {
 }
 .derechos {
     font-family: Oswald;
-    font-size: 15px;
+    font-size: map-get($textos: cuatro );
     text-align: left;
     color:$blancoback;
     
@@ -112,5 +112,5 @@ footer img {
     list-style: none; 
     text-align: right;
     color: $blancoback;
-    font-size: 15px;
+    font-size: map-get($textos: cuatro);
 }
