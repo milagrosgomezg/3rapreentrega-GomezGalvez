@@ -3,35 +3,29 @@
 main {
     background-color: $blancoback;
     grid-area: main;
+    @include espacio(0%,0%)
 }
 main img {
     width: 100%;
 }
 p {
-    font-family: Oswald; 
-    font-size: map-get($textos:normal); 
-    font-style: italic; 
-    text-align: center; 
+    @include font (Oswald, center, italic)
+    font-size: map-get($textos:normal);  
     margin: 40px;
 }
 h1 {
-    font-family: Oswald; 
-    font-size: map-get($textos: dos); 
-    font-style: italic; 
+    @include font (Oswald, center, italic); 
+    font-size: map-get($textos: dos);  
     font-weight:bolder; 
-    text-align: center;
 }
 h2 {
-    font-family: Oswald; 
+    @include font (Oswald, center, italic)
     font-size: map-get($textos: tres); 
-    font-style: italic; 
     font-weight: bold; 
-    text-align: center;
 }
 h3 {
-    font-family: Oswald; 
+    @include font (Oswald, center ,none)
     font-size: map-get($textos: cuatro); 
-    text-align: center;
 }
 .todo-items {
     background-color:$blancoback;
@@ -91,7 +85,13 @@ h3 {
         }
     }
 
-aside {
+.list-servicios {
+      list-style: none;
+     text-align:left;
+     color: $negro;
+ }
+    
+    aside {
     grid-area: aside;
 }
 footer {
@@ -102,9 +102,8 @@ footer img {
     width: 100px;
 }
 .derechos {
-    font-family: Oswald;
+    @include font (Oswald, left, none)
     font-size: map-get($textos: cuatro );
-    text-align: left;
     color:$blancoback;
     
 }
@@ -113,4 +112,70 @@ footer img {
     text-align: right;
     color: $blancoback;
     font-size: map-get($textos: cuatro);
+}
+
+.iconos-servicios {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.serviceIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.serviceIcons a{
+    text-decoration: none;
+    background-color: $blancoback;
+    border-radius: 100%;
+    @include espacio(50px, 50px)
+}
+
+.serviceIcons a i{
+    font-size: 8em;
+    color: $icons ;
+    opacity: 0.9;
+}
+
+.serviceIcons a:hover{
+    background-color:$hovericons;
+    transition: 0.5s;
+}
+
+.serviceIcons a:hover i{
+    color: $hovericons2;
+    transition: 0.5s;
+}
+
+.social-media {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    background-color: $blancoback;
+    border-radius: 50%;
+    @include espacio(10px, 10px)
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: $icons ;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: $hovericons;
+    transition: 0.3s;
+}
+
+.socialIcons a:hover i{
+    color: $hovericons2;
+    transition: 0.3s;
 }

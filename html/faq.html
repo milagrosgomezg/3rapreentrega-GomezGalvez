@@ -3,67 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Preguntas Frecuentes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <img src="../assets/Logo-Nuntius.png" alt="Logo Nuntius">
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="./servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="./faq.html">Preguntas frecuentes</a>
-                </li>
-            </ul>
-        </nav>
+        <header class="encabezado">
+            <nav class="navbar navbar-expand-lg m--nav bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand encabezado--logo" href="../index.html">NUNTIUS</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="menu-list">
+                        <a class="nav-link active" aria-current="page" href="../index.html" class="menu-list__index">Inicio</a>
+                      </li>
+                      <li class="menu-list">
+                        <a class="nav-link active" aria-current="page" href="../html/nosotros.html" class="menu-list__nos">Nosotros</a></li>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../html/servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="menu-list__servicios">
+                          Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../html/servicios.html">Asesoría</a></li>
+                          <li><a class="dropdown-item" href="../html/servicios.html">Community Management</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-list">
+                        <a class="nav-link active" aria-current="page" href="../html/contacto.html" class="menu-list__contacto">Contacto</a>
+                      </li>
+                      <li class="menu-list">
+                        <a class="nav-link active" aria-current="page" href="../html/faq.html" class="menu-list__faq">Preguntas Frecuentes</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        <img src="../assets/Logo-Nuntius.png" alt="Logo Nuntius" class="animate__animated animate__bounceIn">
     </header>
     <main>
         <h1>PREGUNTAS FRECUENTES</h1>
+        <br>
         <section>
-            ¿CUAL ES LA IMPORTANCIA DE LA COMUNICACIÓN POLÍTICA?
+            <h2>¿CUAL ES LA IMPORTANCIA DE LA COMUNICACIÓN POLÍTICA?</h2>
             <article>
                 <p>La comunicación política es esencial para el funcionamiento de la democracia, la participación ciudadana y la construcción de sociedades más justas y democráticas. Permite que los ciudadanos estén informados, participen activamente en el proceso político y ejerzan su poder para influir en las decisiones que afectan sus vidas y su comunidad.</p>
             </article>
         </section>
+        <br>
         <section>
-            ¿TRABAJAN CON CLIENTES DE CUALQUIER CUADRO POLÍTICO?
+            <h2>¿TRABAJAN CON CLIENTES DE CUALQUIER CUADRO POLÍTICO?</h2>
             <article>
                 <p>Sí, en NUNTIUS nos comprometemos a ofrecer servicios de comunicación política a clientes de todos los espectros políticos. Creemos en la importancia de la diversidad de opiniones y en el derecho de cada individuo y organización a participar en el proceso político de manera libre y equitativa. Nuestra empresa se rige por principios de imparcialidad y profesionalismo, lo que significa que brindamos nuestros servicios de manera neutral y objetiva, sin favorecer a ningún partido político en particular. Nos esforzamos por trabajar con una amplia gama de clientes, incluidos partidos políticos, candidatos, organizaciones de la sociedad civil y gobiernos locales, para ayudarles a alcanzar sus objetivos de comunicación política de manera efectiva y ética.</p>
             </article>
         </section>
+        <br>
         <section>
-            ¿SE PUEDEN ELEGIR SERVICIOS POR SEPARADO O SE CONTRATA TODO EL PAQUETE?
+            <h2>¿SE PUEDEN ELEGIR SERVICIOS POR SEPARADO O SE CONTRATA TODO EL PAQUETE?</h2>
             <article>
                 <p>En NUNTIUS comprendemos que las necesidades de comunicación política pueden variar significativamente entre nuestros clientes. Por lo tanto, ofrecemos la flexibilidad de elegir servicios individualmente o contratar un paquete completo, según las necesidades y objetivos específicos de cada cliente. Ofrecemos una amplia gama de servicios que incluyen asesoramiento estratégico, gestión de campañas, desarrollo de mensajes, relaciones con los medios de comunicación, análisis de datos y más. Los clientes pueden seleccionar los servicios que mejor se adapten a sus requerimientos y presupuesto, o pueden optar por contratar un paquete completo que abarque todas las áreas de comunicación política.</p>
             </article>
         </section>
+        <br>
         <section>
-            ¿COMO SABER EL PRESUPUESTO NECESARIO PARA UNA CAMPAÑA?
+            <h2>¿COMO SABER EL PRESUPUESTO NECESARIO PARA UNA CAMPAÑA?</h2>
             <article>
                 <p>Determinar el presupuesto necesario para una campaña política puede variar dependiendo de una serie de factores, incluyendo el alcance de la campaña, los objetivos específicos, el tipo de plataformas y medios utilizados, así como el tamaño del público objetivo. En NUNTIUS entendemos la importancia de manejar los recursos de manera eficiente y efectiva. Ofrecemos servicios de consultoría personalizada donde trabajamos estrechamente con nuestros clientes para evaluar sus necesidades y objetivos, y desarrollar un plan estratégico que se ajuste a su presupuesto disponible.</p>
             </article>
         </section>
+        <br>
         <h2>COMUNICANDO POLÍTICA PARA LA POLÍTICA DE HOY. TODO EN UN MISMO LUGAR.</h2>
     </main>
     <footer>
         <img src="../assets/Logo-Nuntius.png" alt="Logo Nuntius">
         <section>
-            <article>
-                © 2024 NUNTIUS. Todos los derechos reservados. 
-            </article>
-        </section>
+          <p class="derechos"> © 2024 NUNTIUS. Todos los derechos reservados.</p>
+      </section>
         <section>
             <nav>
                 <ul class="tyc">
@@ -73,7 +97,17 @@
                     <li><a href="html/contacto.html"></a>Contacto</li>
                 </ul>
             </nav>
+            <div class="social-media">
+              <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-spotify"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+              </div>
+            </div>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
