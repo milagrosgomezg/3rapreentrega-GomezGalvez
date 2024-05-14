@@ -1,0 +1,10 @@
+@mixin espacio ($p, $m) {
+    padding: $p;
+    margin: $m;
+}
+
+@mixin font ($ff, $ta, $fst) {
+    font-family: $ff;
+    text-align: $ta;
+    font-style: $fst;
+}
