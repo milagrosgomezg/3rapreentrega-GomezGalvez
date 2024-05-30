@@ -8,6 +8,7 @@ main {
 main img {
     width: 100%;
 }
+
 p {
     @include font (Oswald, center, italic)
     font-size: map-get($textos:normal);  
