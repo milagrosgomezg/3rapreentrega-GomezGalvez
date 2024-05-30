@@ -1,0 +1,269 @@
+html {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.encabezado {
+  background-color: #031900;
+  background: linear-gradient(180deg, #031a00 0%, #0c4d01 35%, #2abe00 100%);
+}
+
+.encabezado img {
+  width: 15%;
+}
+
+.encabezado-nos {
+  color: #F7F5EA;
+}
+
+.menu-list__index:hover {
+  color: #0fe01a;
+}
+
+.menu-list__nos:hover {
+  color: #0fe01a;
+}
+
+.menu-list__contacto:hover {
+  color: #0fe01a;
+}
+
+.menu-list__servicios:hover {
+  color: #0fe01a;
+}
+
+.menu-list__faq:hover {
+  color: #0fe01a;
+}
+
+.nav-link:hover {
+  border-bottom: #3de00b 2px solid;
+}
+
+main {
+  background-color: #F7F5EA;
+  grid-area: main;
+}
+
+main img {
+  width: 100%;
+}
+
+p {
+  font-family: Oswald;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  margin: 40px;
+}
+
+h1 {
+  font-family: Oswald;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h2 {
+  font-family: Oswald;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-family: Oswald;
+  font-size: 15px;
+  text-align: center;
+}
+
+.todo-items {
+  background-color: #F7F5EA;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.todo-items__nosotros {
+  background-color: #87B778;
+  width: 600px;
+  border-radius: 200px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.todo-items__nosotros__banner {
+  width: 400px;
+  border-radius: 150px;
+}
+
+.todo-items__asesoria {
+  background-color: #87B778;
+  width: 600px;
+  border-radius: 200px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.todo-items__asesoria__banner {
+  width: 400px;
+  border-radius: 150px;
+}
+
+.todo-items__actualidad {
+  background-color: #87B778;
+  width: 600px;
+  border-radius: 200px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.todo-items__actualidad__banner {
+  width: 400px;
+  border-radius: 150px;
+}
+
+.todo-items__experiencias {
+  background-color: #87B778;
+  width: 600px;
+  border-radius: 200px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.todo-items__experiencias__banner {
+  width: 400px;
+  border-radius: 150px;
+}
+
+.list-servicios {
+  list-style: none;
+  text-align: left;
+  color: #000000;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #031900;
+  background: linear-gradient(180deg, #031900 0%, #0c4d01 35%, #2abe00 100%);
+}
+
+footer img {
+  width: 100px;
+}
+
+.derechos {
+  font-family: Oswald;
+  font-size: 15px;
+  text-align: left;
+  color: #F7F5EA;
+}
+
+.tyc {
+  list-style: none;
+  text-align: right;
+  color: #F7F5EA;
+  font-size: 15px;
+}
+
+.iconos-servicios {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.serviceIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.serviceIcons a {
+  text-decoration: none;
+  padding: 50px;
+  background-color: #F7F5EA;
+  margin: 50px;
+  border-radius: 100%;
+}
+
+.serviceIcons a i {
+  font-size: 8em;
+  color: #013d04;
+  opacity: 0.9;
+}
+
+.serviceIcons a:hover {
+  background-color: #002702;
+  transition: 0.5s;
+}
+
+.serviceIcons a:hover i {
+  color: #d4ffc7;
+  transition: 0.5s;
+}
+
+.social-media {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #F7F5EA;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: #013d04;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover {
+  background-color: #002702;
+  transition: 0.3s;
+}
+
+.socialIcons a:hover i {
+  color: #d4ffc7;
+  transition: 0.3s;
+}
+
+@media (max-width: 576px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px none 0.5fr 100px;
+    grid-template-areas: "header" "main" "aside" "footer";
+  }
+}
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.4fr 0.1fr 0.2;
+    grid-template-areas: "header header header header" "main main main main" "aside aside aside aside" "footer footer footer footer";
+  }
+}
+
+/*# sourceMappingURL=main.scss.map */
