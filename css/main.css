@@ -91,6 +91,9 @@ h3 {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  box-sizing: border-box; 
+  margin: 0%;
+  padding: 0%;
 }
 
 .todo-items__nosotros {

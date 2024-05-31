@@ -1,2 +1,3 @@
 # PROYECTO FINAL CODER HOUSE - DESARROLLO WEB
 ## Primer proyecto de código HTML y CSS para el curso de desarrollo web de Coder House. Se trata de una página Web de comunicación política, puesto que soy estudiante avanzada de Lic. en Ciencia Política, y me interesaba realizar algo que entremezcle mi carrera con la tecnología. 
+### Pude crear y crecer mucho a lo largo del curso y del proyecto. Creo que lo que más dificultad tuve sin lugar a dudas es con grid system, que pese a intentar cambiarlo a lo largo de todas las pre-entregas, y ver las clases y videos mil veces, siento que aún tengo mucho que aprender. Estoy feliz con el resultado, el camino del desarrollo web es arduo y largo, pero me da orgullo saber que mis primeros pasos fueron completados con mucho esfuerzo. 
