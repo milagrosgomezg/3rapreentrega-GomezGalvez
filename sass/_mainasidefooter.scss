@@ -36,6 +36,7 @@ h3 {
 }
 
 .todo-items {
+    @include $grid-breakpoints (sm: 576px; md: 768px; lg: 992px)
     &__nosotros {
         background-color:$verderaroitems;
         width: 600px;

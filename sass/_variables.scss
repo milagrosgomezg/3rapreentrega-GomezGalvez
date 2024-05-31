@@ -27,3 +27,9 @@ $textos{
     cuatro: 15px;
     normal: 20px;
 }
+
+$grid-breakpoints: {
+  sm: 576px;
+  md: 768px;
+  lg: 992px;
+}
