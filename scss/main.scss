@@ -266,4 +266,17 @@ footer img {
   }
 }
 
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.4fr 0.1fr 0.2;
+    grid-template-areas: 
+    "header header header header" 
+    "main main main main" 
+    "aside aside aside aside" 
+    "footer footer footer footer";
+  }
+}
+
 /*# sourceMappingURL=main.scss.map */
